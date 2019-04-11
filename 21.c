@@ -4,3 +4,11 @@
 #include <pthread.h>
 #include <stdbool.h>
 #include <time.h>
+int nResources,
+    nProcesses;
+int *resources;
+int **allocated;
+int **maxRequired;
+int **need;
+int *safeSeq;
+int nProcessRan = 0;
