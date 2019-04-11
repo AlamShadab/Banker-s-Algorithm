@@ -14,3 +14,4 @@ int **need;
 int *safeSeq;
 int nProcessRan = 0;
 pthread_mutex_t lockResources;
+pthread_cond_t condition;
