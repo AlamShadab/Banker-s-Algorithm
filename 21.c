@@ -22,3 +22,9 @@ void* processCode(void* );
 
 int main(int argc, char** argv) {
 	srand(time(NULL));
+
+printf("\nNumber of processes? ");
+        scanf("%d", &nProcesses);
+
+        printf("\nNumber of resources? ");
+        scanf("%d", &nResources);
