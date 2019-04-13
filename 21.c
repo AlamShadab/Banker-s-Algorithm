@@ -12,3 +12,13 @@ int **maxRequired;
 int **need;
 int *safeSeq;
 int nProcessRan = 0;
+
+pthread_mutex_t lockResources;
+pthread_cond_t condition;
+
+bool getSafeSeq();
+
+void* processCode(void* );
+
+int main(int argc, char** argv) {
+	srand(time(NULL));
