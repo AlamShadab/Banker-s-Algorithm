@@ -114,7 +114,7 @@ printf("\nNumber of processes? ");
 }
 
 
-bool getSafeSeq() 
+bool getSafeSeq() {
 	
         int tempRes[nResources];
         for(int i=0; i<nResources; i++) tempRes[i] = resources[i];
@@ -152,6 +152,7 @@ bool getSafeSeq()
                 }
         }
         return true; 
+}
 }
 
 void* processCode(void *arg) {
