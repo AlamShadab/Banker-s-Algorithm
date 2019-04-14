@@ -48,7 +48,7 @@ printf("\nNumber of processes? ");
                 for(int j=0; j<nResources; j++)
                         scanf("%d", &allocated[i][j]);
         }
-        printf("\n");
+        printf("\n")
 
 	
         for(int i=0; i<nProcesses; i++) {
